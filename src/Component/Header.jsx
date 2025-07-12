@@ -12,7 +12,12 @@ export default function Header() {
     <header className="shadow px-5 py-3 flex  justify-between items-center md:flex md:justify-between md:items-center lg:px-10 lg:py-3">
       {/* Logo */}
       <div className="flex justify-between items-center w-full lg:w-fit">
-        <div className="text-xl lg:text-2xl text-zinc-700"><span className="text-black font-semibold">H</span>earth<span className="text-2xl lg:text-3xl font-semibold text-black">Hub</span></div>
+        <div className="text-xl lg:text-2xl text-zinc-700">
+          <span className="text-black font-semibold">H</span>earth
+          <span className="text-2xl lg:text-3xl font-semibold text-black">
+            Hub
+          </span>
+        </div>
         {/* Navbar */}
 
         {/* toggle button */}
