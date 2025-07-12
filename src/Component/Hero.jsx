@@ -21,11 +21,10 @@ export default function Hero() {
         </p>
       </div>
       {/* Position container */}
-      <div className="absolute bg-white rounded p-3">
-        <div>
+      <div className="absolute bg-white rounded p-3 w-[85%] top-40 left-7  ">
+        <div className="flex items-center justify-between">
           <h1>Search for available rooms</h1>
-        </div>
-        <div>
+
           <FaArrowDownShortWide />
         </div>
       </div>
