@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Position container */}
-      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-7 md:left-15 md:top-100 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
+      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-7 md:left-15 md:top-120 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
         <div className="flex items-center justify-between">
           <h1 className="font-semibold">Search for available rooms</h1>
 
