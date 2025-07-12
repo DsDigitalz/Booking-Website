@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaArrowDownShortWide } from "react-icons/fa6";
 export default function Hero() {
   return (
     <section className="relative flex flex-col gap-5">
@@ -21,8 +21,13 @@ export default function Hero() {
         </p>
       </div>
       {/* Position container */}
-      <div className="absolute">
-        
+      <div className="absolute bg-white rounded p-3">
+        <div>
+          <h1>Search for available rooms</h1>
+        </div>
+        <div>
+          <FaArrowDownShortWide />
+        </div>
       </div>
     </section>
   );
