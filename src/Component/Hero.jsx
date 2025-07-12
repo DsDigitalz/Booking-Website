@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex gap-10 justify-center  mx-8 lg:mx-0 lg:gap-13  xl:gap-18">
+        <div className="mr-2 flex gap-7 justify-center lg:mx-0 lg:gap-13  xl:gap-18">
           <p className="text-[14px] w-[40%] text-[#6C6B6B] ">Rooms</p>
           <p className="text-center text-[14px] w-[40%]  text-[#6C6B6B]">Reservation/ <br />Semester</p>
           <p className="text-[14px] w-[40%] text-[#6C6B6B]">Students</p>
