@@ -46,7 +46,7 @@ export default function Header() {
         {/* Mobile Menu */}
 
         <div
-          className={`border border-zinc-200 lg:static lg:translate-x-0 transition-transform duration-500 ease-in-out ${
+          className={`border border-zinc-200 lg:border-none lg:static lg:translate-x-0 transition-transform duration-500 ease-in-out ${
             isOpen ? "translate-x-0 " : "-translate-x-full "
           } absolute top-15 left-0 w-[60%] z-20 overflow-hidden
           p-10 bg-white shadow-2xl flex flex-col gap-7
@@ -55,7 +55,7 @@ export default function Header() {
           lg:w-auto lg:items-center lg:flex-row
           `}
         >
-          <div className="absolute p-4 -top-0  left-0 z-30 bg-black h-130 "></div>
+          <div className="absolute p-4 -top-0  left-0 z-30 bg-black h-130 lg:hidden"></div>
           <ul className="flex  flex-col gap-10 lg:flex-row  lg:gap-10  ">
             <li className="cursor-pointer active:bg-black active:rounded  px-2 py-1    active:text-white lg:hover:text-black lg:active:text-zinc-600 lg:active:bg-transparent    hover:scale-105 transition-all duration-300 ">
               Home
