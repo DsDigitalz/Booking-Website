@@ -57,24 +57,24 @@ export default function Header() {
         >
           <div className="absolute p-4 -top-0  left-0 z-30 bg-black h-130 lg:hidden"></div>
           <ul className="flex  flex-col gap-10 lg:flex-row  lg:gap-10  ">
-            <li className="cursor-pointer active:bg-black active:rounded  px-2 py-1    active:text-white lg:hover:text-black lg:active:text-zinc-600 lg:active:bg-transparent    hover:scale-105 transition-all duration-300 ">
+            <li className=" text-xl cursor-pointer active:bg-black active:text-white active:rounded  px-2 py-1    lg:hover:text-black lg:active:text-zinc-400 lg:active:bg-transparent    hover:scale-107 transition-all duration-300 lg:text-[16px]">
               Home
             </li>
-            <li className=" active:rounded  px-2 py-1    active:text-white  cursor-pointer  active:bg-black hover:scale-105 hover:text-black scale:text-[18px] transition-all duration-300 ">
+            <li className="text-xl active:rounded  px-2 py-1  active:bg-black lg:active:bg-transparent  active:text-white  cursor-pointer hover:scale-105 lg:active:text-zinc-400 hover:text-black scale:text-[18px] transition-all duration-300 lg:text-[16px] ">
               Landlords
             </li>
-            <li className=" active:rounded  px-2 py-1    active:text-white  cursor-pointer  active:bg-black hover:scale-105 hover:text-black scale:text-[18px] transition-all duration-300 ">
+            <li className="text-xl active:rounded  px-2 py-1  lg:active:bg-transparent active:bg-black active:text-white  cursor-pointer  hover:scale-107 hover:text-black scale:text-[18px]  transition-all duration-300 lg:text-[16px] lg:active:text-zinc-400">
               Erasmus Life
             </li>
-            <li className="active:rounded  px-2 py-1    active:text-white  cursor-pointer  active:bg-black hover:scale-105 hover:text-black scale:text-[18px] transition-all duration-300">
+            <li className=" text-xl active:rounded  px-2 py-1  lg:active:bg-transparent  active:text-white  cursor-pointer  active:bg-black hover:scale-107 hover:text-black scale:text-[18px] transition-all duration-300 lg:text-[16px] lg:active:text-zinc-400">
               About Us
             </li>
           </ul>
-          <div className=" lg:text-zinc-700 lg:flex lg:gap-10 lg:items-center">
-            <div className="active:rounded  px-2 py-1    active:text-white mt-3 lg:mt-0 ml-2 cursor-pointer  active:bg-black hover:scale-105 hover:text-black scale:text-[18px] transition-all duration-300 lg:ml-0">
+          <div className="text-xl lg:text-zinc-700 lg:flex  lg:active:bg-transparent lg:gap-10 lg:items-center">
+            <div className=" active:rounded  px-2 py-1  lg:active:bg-transparent  active:text-white mt-3 lg:mt-0   cursor-pointer  active:bg-black hover:scale-107 hover:text-black scale:text-[18px] transition-all duration-300 lg:ml-0 lg:text-[16px] active:lg:text-zinc-400">
               Login
             </div>
-            <button className="mt-7 cursor-pointer active:bg-zinc-500 rounded-lg border border-zinc-400 px-3 py-2 text-[16px] font-semibold hover:bg-black hover:text-white transition-all duration-500 lg:mt-0">
+            <button className="text-xl mt-7 cursor-pointer active:bg-zinc-400 rounded-lg border border-zinc-400 px-3 py-2 text-[16px] font-semibold hover:bg-black  hover:text-white transition-all duration-500 lg:mt-0 lg:text-[16px] lg:active:text-zinc-400">
               Rent a Room
             </button>
           </div>

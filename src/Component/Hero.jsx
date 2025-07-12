@@ -8,7 +8,7 @@ export default function Hero() {
         <img src="highhouse.png" alt="" />
       </div>
       {/* Hero info */}
-      <div className="mt-12 flex flex-col items-center text-[40px] ite lg:mt-15  lg:flex-1 lg:items-start xl:mt-40">
+      <div className="mt-12 flex flex-col items-center text-[40px]  lg:mt-15  lg:flex-1 lg:items-start xl:mt-40">
         <div className="flex flex-col leading-10 lg:leading-12  lg:w-[95%] xl:text-5xl">
           <h1 className="text-[#1171B9] font-semibold text-center lg:text-left">Find Your Future</h1>
           <h1 className="text-[24px] font-semibold text-center lg:text-[40px] lg:text-left xl:text-5xl">
@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Position container */}
-      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-8 md:left-16 md:top-120 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
+      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-7 sm:left-13 md:left-16 md:top-120 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
         <div className="flex items-center justify-between">
           <h1 className="font-semibold">Search for available rooms</h1>
 
