@@ -22,30 +22,30 @@ export default function Hero() {
         {/* Counter */}
         <div className="flex justify-center items-center gap-9 lg:gap-15 xl:gap-20">
           <div className="mt-7 w-[40%] flex flex-col justify-center items-center leading-5">
-            <h1 className="text-2xl flex font-semibold">
+            <h1 className="text-xl flex font-semibold">
               4235<span className="text-[#1171B9] text-lg">+</span>
             </h1>
           </div>
           <div className="mt-7 w-[40%] flex flex-col leading-5 justify-center items-center">
-            <h1 className="text-2xl flex font-semibold">
+            <h1 className="text-xl flex font-semibold">
               535<span className="text-[#1171B9] text-lg">+</span>
             </h1>
           </div>
           <div className="mt-7 w-[40%] flex flex-col leading-5 justify-center items-center">
-            <h1 className="text-2xl flex font-semibold">
+            <h1 className="text-xl flex font-semibold">
               19905<span className="text-[#1171B9] text-lg">+</span>
             </h1>
           </div>
         </div>
 
-        <div className="flex gap-10 justify-center  mx-8 lg:mx-0 lg:gap-15 lg:ml-2 xl:gap-20">
+        <div className="flex gap-10 justify-center  mx-8 lg:mx-0 lg:gap-13  xl:gap-18">
           <p className="text-[14px] w-[40%] text-[#6C6B6B] ">Rooms</p>
           <p className="text-center text-[14px] w-[40%]  text-[#6C6B6B]">Reservation/ <br />Semester</p>
           <p className="text-[14px] w-[40%] text-[#6C6B6B]">Students</p>
         </div>
       </div>
       {/* Position container */}
-      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-7 md:left-15 md:top-120 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
+      <div className="absolute shadow-2xl   bg-white rounded p-3 w-[85%] top-65 left-8 md:left-16 md:top-120 lg:top-90 lg:left-20 xl:left-30 xl:top-112">
         <div className="flex items-center justify-between">
           <h1 className="font-semibold">Search for available rooms</h1>
 
