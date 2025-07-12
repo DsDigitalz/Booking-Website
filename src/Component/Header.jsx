@@ -12,7 +12,7 @@ export default function Header() {
     <header className="shadow px-5 py-3 flex  justify-between items-center md:flex md:justify-between md:items-center lg:px-10 lg:py-3">
       {/* Logo */}
       <div className="flex justify-between items-center w-full lg:w-fit">
-        <div className="text-3xl text-zinc-700">HearthHub</div>
+        <div className="text-xl lg:text-2xl text-zinc-700"><span className="text-black font-semibold">H</span>earth<span className="text-2xl lg:text-3xl font-semibold text-black">Hub</span></div>
         {/* Navbar */}
 
         {/* toggle button */}
@@ -40,9 +40,9 @@ export default function Header() {
       <nav>
         {/* Mobile Menu */}
         <div
-          className={`lg:static lg:translate-x-0 transition-transform duration-500 ease-in-out ${
+          className={`border border-zinc-200 lg:static lg:translate-x-0 transition-transform duration-500 ease-in-out ${
             isOpen ? "translate-x-0 " : "-translate-x-full "
-          } absolute top-12 left-0 w-[60%] z-20 overflow-hidden
+          } absolute top-15 left-0 w-[55%] z-20 overflow-hidden
    p-10 bg-white shadow-2xl flex flex-col gap-7
   lg:gap-25 xl:gap-25 items-center lg:flex lg:justify-between
   lg:text-zinc-700 lg:static lg:bg-transparent lg:shadow-none lg:p-0
