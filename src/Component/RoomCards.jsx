@@ -2,7 +2,7 @@ import React from "react";
 
 export default function RoomCards() {
   return (
-    <section className="max-w-[1440px] mt-20 px-10">
+    <section className="max-w-[1440px] mx-auto mt-20 lg:mt-30 px-10 lg:px-20 xl:px-40">
       {/* Card Heading */}
       <div className=" flex justify-center">
         <h1 className="font-semibold text-3xl text-center">
@@ -10,13 +10,13 @@ export default function RoomCards() {
         </h1>
       </div>
       {/* Cards info */}
-      <div className="mt-7 grid grid-cols-1 gap-5 sm:flex-col sm:items-center md:px-10">
+      <div className="mt-10 grid grid-cols-1 gap-5 sm:flex-col sm:items-center md:px-10 lg:px-0 md:grid-cols-2 lg:grid-cols-3">
         {/* Card 1 */}
         <div className="">
           <div>
             <img src="/card1.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Riverside Retreat</h2>
               <img src="Heart.png" alt="" className="w-7" />
@@ -41,7 +41,7 @@ export default function RoomCards() {
           <div>
             <img src="/card2.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl  p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl  p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Sunset Serenity Suite</h2>
               <img src="Heart.png" alt="" className="w-7" />
@@ -66,7 +66,7 @@ export default function RoomCards() {
           <div>
             <img src="/card3.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl  p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl  p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Chiado Charm</h2>
               <img src="Heart.png" alt="" className="w-7" />
@@ -90,7 +90,7 @@ export default function RoomCards() {
           <div>
             <img src="/card4.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl  p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl  p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Panoramic Penthouse</h2>
               <img src="Heart.png" alt="" className="w-7" />
@@ -114,7 +114,7 @@ export default function RoomCards() {
           <div>
             <img src="/card5.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl  p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl  p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Marquês Master</h2>
               <img src="Heart.png" alt="" className="w-7" />
@@ -138,7 +138,7 @@ export default function RoomCards() {
           <div>
             <img src="/card6.png" alt="" className="sm:w-full" />
           </div>
-          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-2xl  p-4">
+          <div className="border border-zinc-100 shadow-2xl shadow-zinc-300 rounded-b-2xl  p-4">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium">Alfama Hideaway</h2>
               <img src="Heart.png" alt="" className="w-7" />

@@ -2,16 +2,16 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="max-w-[1440px] mt-20 lg:mt-30 mx-auto flex flex-col lg:flex-row ">
+    <section className="max-w-[1440px] px-5 mt-20 lg:mt-30 mx-auto flex flex-col lg:flex-row sm:px-20  lg:px-20 xl:px-40">
       {/* About image */}
       <div className=" justify-center w-full lg:flex-1">
         <img src="AboutImg.png" alt="" className="w-full" />
       </div>
 
       {/* About Info */}
-      <div className="mt-10 flex flex-col items-center lg:flex-1 lg:pr-10 ">
+      <div className="mt-10 flex flex-col items-center lg:flex-1 lg:mt-0">
         <div className='w-[90%]'>
-          <h1 className="font-bold text-[30px] text-center lg:w-] lg:text-[34px]">
+          <h1 className="font-bold text-[30px] text-center  lg:text-[34px]">
             We Help Students Find Their Perfect Home
           </h1>
         </div>
