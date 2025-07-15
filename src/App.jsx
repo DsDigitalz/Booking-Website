@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Component/Header'
 import Hero from './Component/Hero'
 import About from './Component/About'
+import RoomCards from './Component/RoomCards'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header/>
       <Hero/>
       <About/>
+      <RoomCards/>
     </div>
   )
 }

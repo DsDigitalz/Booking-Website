@@ -2,16 +2,16 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="max-w-[1440px] mt-20 mx-auto flex flex-col ">
+    <section className="max-w-[1440px] mt-20 lg:mt-30 mx-auto flex flex-col lg:flex-row ">
       {/* About image */}
-      <div>
-        <img src="AboutImg.png" alt="" />
+      <div className=" justify-center w-full lg:flex-1">
+        <img src="AboutImg.png" alt="" className="w-full" />
       </div>
 
       {/* About Info */}
-      <div className="mt-10 flex flex-col items-center">
-        <div>
-          <h1 className="font-bold text-[30px] text-center">
+      <div className="mt-10 flex flex-col items-center lg:flex-1 lg:pr-10 ">
+        <div className='w-[90%]'>
+          <h1 className="font-bold text-[30px] text-center lg:w-] lg:text-[34px]">
             We Help Students Find Their Perfect Home
           </h1>
         </div>
@@ -30,24 +30,30 @@ export default function About() {
             point of that experience!
           </p>
         </div>
-        <div className="mt-10 grid grid-cols-1 gap-5 text-[14px]">
-          <div className="flex items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
+        <div className="mt-10 grid grid-cols-1 gap-5 text-[14px] md:grid-cols-2">
+          <div className="flex justify-center items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
             <div>
-              <img src="check-circle.png" alt="" />
+              <img src="check-circle.png" alt="" className="" />
             </div>
             <p>Professional Team</p>
           </div>
-          <div className="flex items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
+          <div className=" flex justify-center items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
             <div>
               <img src="check-circle.png" alt="" />
             </div>
             <p>Always in touch</p>
           </div>
-          <div className="flex items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
+          <div className="flex justify-center items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-3 text-[#1171B9]">
             <div>
               <img src="check-circle.png" alt="" />
             </div>
             <p>Verified Rooms</p>
+          </div>
+          <div className="flex justify-center items-center gap-3 rounded-full bg-[#8d9fe24f] py-2 px-4 text-[#1171B9]">
+            <div>
+              <img src="check-circle.png" alt="" />
+            </div>
+            <p>Fast and Secure Booking</p>
           </div>
         </div>
       </div>
