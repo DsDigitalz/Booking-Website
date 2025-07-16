@@ -15,7 +15,8 @@ export default function Footer() {
               Hub
             </span>
           </div>
-          <p className="text-zinc-600 xl:w-[50%] leading-5">Find Your Dream Accommodation</p>
+          <p className="text-zinc-600 xl
+          \:w-[50%] leading-5">Find Your Dream Accommodation</p>
           <div className="flex gap-7">
             <FaFacebook />
             <BsTwitterX />
@@ -50,7 +51,7 @@ export default function Footer() {
             RESOURCES
           </li>
           <li className="text-zinc-600">
-            Travessa da Cara, 14, 1200-089 Lisbon - Portuga{" "}
+            Travessa da Cara, 14, 1200-089 Lisbon - Portugal{" "}
           </li>
           <li className="text-zinc-600">+351 932 483 834</li>
           <li className="text-zinc-600">Terms & Conditions </li>
