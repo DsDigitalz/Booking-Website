@@ -3,6 +3,7 @@ import Header from './Component/Header'
 import Hero from './Component/Hero'
 import About from './Component/About'
 import RoomCards from './Component/RoomCards'
+import Testimonials from './Component/Testimonials'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero/>
       <About/>
       <RoomCards/>
+      <Testimonials/>
     </div>
   )
 }
