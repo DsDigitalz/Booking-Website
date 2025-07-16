@@ -28,7 +28,7 @@ export default function Contact() {
           required
           className="bg-white p-3 rounded-lg md:w-[30%] lg:w-[35%] xl:max-w-[20%]"
         />
-        <button className="bg-[#D6DBEC]   text-[#25409C] rounded-lg font-semibold p-3 md:w-[20%]">
+        <button className="bg-[#D6DBEC]   text-[#25409C] rounded-lg font-semibold p-3 md:w-[20%] lg:w-[15%] xl:w-[10%]">
           Send
         </button>
       </div>

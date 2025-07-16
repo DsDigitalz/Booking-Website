@@ -13,10 +13,10 @@ export default function Process() {
         </h1>
       </div>
       {/* Info */}
-      <div className="w-[80%] grid grid-cols-1 gap-5 lg:gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="w-[80%] grid grid-cols-1 gap-5 lg:gap-10 md:grid-cols-2 lg:grid-cols-4">
         <div className="text-zinc-700 flex flex-col items-center gap-4 ">
           <h1 className="text-6xl font-semibold">1</h1>
-          <h2 className="text-2xl font-semibold">Pick a few places</h2>
+          <h2 className="text-2xl font-semibold text-center">Pick a few places</h2>
           <p className="text-center">
             Explore hundreds of high-quality rooms, studios, and apartments.
             Save favorites and book it. Finding your dream home could not be
