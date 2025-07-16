@@ -5,7 +5,7 @@ export default function Testimonials() {
     <section className="max-w-[1440px] mx-auto mt-20 flex flex-col items-center gap-7 lg:px-10 lg:mt-30">
       {/* Heading */}
       <div className="px-5 flex flex-col items-center">
-        <h1 className="text-[20px] text-[#1171B9] ">Testimonials</h1>
+        <h1 className="text-[20px] font-semibold text-[#1171B9] ">Testimonials</h1>
         <h1 className="font-semibold text-3xl text-center">
           That’s what our clients say
         </h1>
