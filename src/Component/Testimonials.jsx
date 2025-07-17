@@ -11,7 +11,7 @@ export default function Testimonials() {
         </h1>
       </div>
       {/* Cards */}
-      <div className="flex justify-center w-[90%] lg:w-[80%] overflow-x-hidden">
+      <div className="flex justify-center w-[90%] lg:w-[80%] overflow-x-hidden scrollbar-hide">
         <div className="flex overflow-x-scroll flex-nowrap gap-5 ">
           {/* Card 1 */}
           <div className="bg-[#25409C] p-7 flex-shrink-0 flex flex-col max-w-[300px] rounded-lg gap-3 lg:flex-row lg:max-w-[400px] lg:items-center">
